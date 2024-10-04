@@ -4,6 +4,7 @@ import {Controller } from 'react-hook-form';
 import conf from '../conf/conf';
 
 
+
 export default function RTE({name, control, label, defaultValue =""}) {
   return (
     <div className='w-full'> 
@@ -48,7 +49,7 @@ export default function RTE({name, control, label, defaultValue =""}) {
             "undo redo | blocks | image | bold italic forecolor | alignleft aligncenter bold italic forecolor | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent |removeformat | help",
             content_style: "body { font-family:Helvetica,Arial,sans-serif; font-size:14px }"
         }}
-        onEditorChange={onChange}
+       // onEditorChange={onChange}
         />
     )}
     />
